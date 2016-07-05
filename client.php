@@ -1,6 +1,5 @@
 <?php
 /*
- *
  *Software Copyright License Agreement (BSD License)
  *
  *Copyright (c) 2010, Yahoo! Inc.
