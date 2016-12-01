@@ -1,5 +1,6 @@
 <?php
 /*
+ *
  *Software Copyright License Agreement (BSD License)
  *
  *Copyright (c) 2010, Yahoo! Inc.
@@ -46,6 +47,7 @@ if (!$engine->signon('I am login from PHP code')) die('Signon failed');
 
 $seq = -1;
 while (true)
+
 {
 	$resp = $engine->fetch_long_notification($seq+1);
 	if (isset($resp))
